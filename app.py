@@ -1,6 +1,5 @@
 # app.py
 import streamlit as st
-import streamlit.components.v1 as components
 import cv2
 import numpy as np
 from PIL import Image
@@ -8,6 +7,15 @@ import os
 from datetime import datetime
 import base64
 import io
+
+# --------- Compatibilidad iframe ---------
+try:
+    # Streamlit >= 1.40
+    iframe = st.iframe
+except AttributeError:
+    # Streamlit < 1.40
+    import streamlit.components.v1 as components
+    iframe = components.iframe
 
 # --------- Intentos de import para segmentación ---------
 try:
@@ -160,7 +168,7 @@ def pagina_formulario():
     st.info("Por favor completa este breve formulario antes de descargar tu foto")
 
     form_url = "https://share.hsforms.com/13wfiKA-rRAmNJwH2ZxH10g3a8ur"  # tu link
-    st.iframe(form_url, height=600, scrolling=True)
+    iframe(form_url, height=600, scrolling=True)  # 👈 alias dinámico
 
     if st.checkbox("✅ He completado el formulario"):
         st.session_state.etapa = "fondo"
