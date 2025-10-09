@@ -159,7 +159,7 @@ def pagina_formulario():
     st.info("Por favor completa este breve formulario antes de descargar tu foto")
 
     form_url = "https://share.hsforms.com/13wfiKA-rRAmNJwH2ZxH10g3a8ur"  # tu link
-    st.components.v1.iframe(form_url, height=600, scrolling=True)
+    st.iframe(form_url, height=600, scrolling=True)
 
     if st.checkbox("✅ He completado el formulario"):
         st.session_state.etapa = "fondo"
