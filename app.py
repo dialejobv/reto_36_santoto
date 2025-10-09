@@ -180,7 +180,8 @@ def pagina_fondo():
     if "foto_path" in st.session_state and os.path.exists(st.session_state.foto_path):
         foto = Image.open(st.session_state.foto_path)
         final_img = aplicar_fondo_mejorado(foto, fondo_path=FONDO_PATH, method="auto")
-        st.image(final_img, caption="Tu foto con el fondo del stand", use_container_width=True)
+        st.image(final_img, caption="Tu foto con el fondo del stand", width=None)
+
 
         boton_descarga = crear_boton_descarga(final_img, "foto_sofa2025")
         st.markdown(boton_descarga, unsafe_allow_html=True)
