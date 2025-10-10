@@ -393,7 +393,7 @@ if "contador_mensajes" not in st.session_state:
     st.session_state.contador_mensajes = 0
 
 # Título principal
-st.markdown('<h1 class="main-header">∫ Tutor IA de Cálculo ∂</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">∫ Tutor SAPIENS</h1>', unsafe_allow_html=True)
 
 # Layout principal
 col1, col2 = st.columns([2, 1])
@@ -408,7 +408,7 @@ with col1:
     if len(st.session_state.historial) == 0:
         chat_html += '''
         <div style="text-align: center; padding: 50px; color: #999;">
-            <h3>👋 ¡Hola! Soy tu tutor de Cálculo</h3>
+            <h3>👋 ¡Hola! Soy tu  SAPIENS de Cálculo</h3>
             <p>Puedes preguntarme sobre:</p>
             <ul style="list-style: none; padding: 0;">
                 <li>📈 Derivadas e integrales</li>
