@@ -11,7 +11,7 @@ import hashlib
 
 # Configuración de la página
 st.set_page_config(
-    page_title="Tutor IA de Cálculo",
+    page_title="Tutor SAPIENS",
     page_icon="∫",
     layout="wide",
     initial_sidebar_state="collapsed"
