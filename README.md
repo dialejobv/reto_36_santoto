@@ -6,7 +6,9 @@
 
 ## 🧠 Introducción
 
-S.A.P.I.E.N.S. (Sistema de Apoyo Personalizado e Inteligente para Estudiantes de la Santo Tomás) es un tutor virtual de cálculo impulsado por inteligencia artificial generativa, diseñado para apoyar a estudiantes de ingeniería en asignaturas fundamentales como:
+S.A.P.I.E.N.S. (Sistema de Apoyo Personalizado e Inteligente para Estudiantes de la Santo Tomás) es un prototipo funcional de tutor académico basado en inteligencia artificial generativa, diseñado para apoyar el aprendizaje autónomo, mejorar el desempeño académico y reducir la deserción estudiantil en la Facultad de Ingeniería Electrónica.
+
+El sistema integra técnicas modernas de IA, análisis de necesidades académicas y una arquitectura digital basada en Python, Streamlit y modelos de lenguaje, permitiendo ofrecer acompañamiento inmediato, adaptativo y contextualizado. Diseñado para apoyar a estudiantes de ingeniería en asignaturas fundamentales como:
 
 - Cálculo diferencial
 - Cálculo integral
@@ -28,9 +30,41 @@ Todo integrado en una interfaz construida con Streamlit, conectada a la API de D
 
 ------------
 
+## 🎯 Problema Identificado
+
+Los modelos de tutoría tradicionales presentan limitaciones como:
+
+- Baja disponibilidad de docentes.
+- Escasez de acompañamiento personalizado.
+- Sobrecarga de asignaturas con alta dificultad.
+- Dificultades de los estudiantes para mantener hábitos de estudio efectivos.
+- Desmotivación y falta de herramientas de apoyo digital.
+
+Estas situaciones contribuyen al bajo rendimiento y a la deserción estudiantil, especialmente en programas de ingeniería.
+
+------------
+
+## ❓ Pregunta Problema
+
+¿Cómo transformar los modelos de tutoría académica tradicionales mediante IA, para garantizar procesos de aprendizaje más eficaces y adaptados a estudiantes de la Universidad Santo Tomás?
+
+
+------------
+
+
 ## 🎯 Objetivo del Proyecto
 
-Desarrollar un tutor inteligente académico para Cálculo, accesible, usable y educativo, alineado con la transformación digital educativa de la Universidad Santo Tomás.
+Potenciar el rendimiento académico y la autonomía de los estudiantes mediante la implementación de S.A.P.I.E.N.S., posicionando a la universidad como referente en innovación educativa.
+
+------------
+
+## 🎯 Objetivos Específicos
+
+- Identificar necesidades académicas y factores asociados a la deserción.
+- Formular el modelo conceptual del tutor inteligente.
+- Desarrollar un Producto Mínimo Viable (PMV) para pruebas piloto.
+- Validar usabilidad, pertinencia y adopción por estudiantes reales.
+- Integrar recursos académicos institucionales como fuente de conocimiento.
 
 ------------
 
