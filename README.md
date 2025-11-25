@@ -28,6 +28,10 @@ El sistema provee:
 
 Todo integrado en una interfaz construida con Streamlit, conectada a la API de DeepSeek, con un modelo pedagógico diseñado para fomentar comprensión y autonomía.
 
+![Image](https://github.com/user-attachments/assets/2f8d3671-0ce9-4c14-9b18-33f797690a22)
+>- Interfaz Tutor Sapiens
+
+
 ------------
 
 ## 🎯 Problema Identificado
@@ -142,9 +146,12 @@ Incluye:
 - Control de historial
 - Re-renderización automática
 
+![Image](https://github.com/user-attachments/assets/41e666c0-2e5c-4d31-adc7-32963bba07cc)
+>- Entrada de texto Tutor Sapiens
+
 ### 🧠 Lógica del Tutor (DeepSeek)
 
-El tutor se comporta según el SYSTEM_PROMPT que creaste:
+El tutor se comporta según el SYSTEM_PROMPT que se creó:
 
 - Explica paso a paso
 - Usa preguntas socráticas
@@ -165,6 +172,8 @@ El tutor se comporta según el SYSTEM_PROMPT que creaste:
 
 Es decir, el estudiante puede hablar y SAPIENS responde ¡como un profesor real!
 
+![Image](https://github.com/user-attachments/assets/09b8336f-a2a9-4daa-a30d-6678491fcb73)
+>- Entrada por voz Tutor Sapiens
 ------------
 
 ### 🔊 3. Generación de Audio (TTS)
@@ -196,6 +205,8 @@ Si el usuario pide cosas como:
 
 Con Plotly, completamente interactivo.
 
+![Image](https://github.com/user-attachments/assets/6d979f24-b5d1-4253-8ea3-425e7e2f778a)
+>- Generación de gráficas Tutor Sapiens
 ------------
 
 ### 🧮 5. Calculadora Doble (Básica + Simbólica)
