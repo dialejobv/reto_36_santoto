@@ -176,3 +176,100 @@ Tu función texto_a_voz():
 ✔️ Convierte texto → audio .mp3
 ✔️ Lo reinyecta en la UI
 ✔️ Reproduce automáticamente
+
+------------
+
+### 📊 4. Gráficas Automáticas
+
+Si el usuario pide cosas como:
+
+- "muéstrame la gráfica de una derivada"
+- "visualiza un límite"
+- "enséñame el área bajo la curva"
+
+→ Streamlit genera:
+
+- Derivadas con tangente
+- Integrales como área
+- Límites laterales
+- Funciones básicas
+
+Con Plotly, completamente interactivo.
+
+------------
+
+### 🧮 5. Calculadora Doble (Básica + Simbólica)
+
+Incluye:
+
+### ✨ Calculadora Básica
+
+- Suma, resta, multiplicación, división
+- Raíz, cuadrado, inverso
+- Cambiar signo
+- Redondeos y manejo de errores
+
+### ✨ Calculadora Simbólica
+
+- Derivadas
+- Integrales
+- Límites
+- Ecuaciones
+- Simplificación
+- Funciones trigonométricas
+- π, e, raíces, variables, etc.
+
+Todo respaldado por SymPy.
+
+------------
+
+### 🧑‍🏫 6. Avatar Animado
+
+Con CSS → animación suave y elegante:
+
+- Hace un "pulso" animado
+- Representa al Prof. S.A.P.I.E.N.S
+- Da identidad al tutor
+
+------------
+
+## 🧪 Ejemplo de Flujo de Uso
+
+1️⃣ El usuario inicia y ve el avatar animado
+
+2️⃣ Pregunta: “¿Cómo derivo $x^3$?”
+
+3️⃣ SAPIENS responde paso a paso
+
+4️⃣ El usuario pide “Muéstrame la gráfica”
+
+5️⃣ Se genera visualización Plotly
+
+6️⃣ El usuario presiona el micrófono y pregunta por voz
+
+7️⃣ La respuesta se reproduce en audio
+
+------------
+
+## 🔮 Impacto Esperado
+
+- Reducción de deserción estudiantil.
+- Mejora en el rendimiento académico.
+- Tutorías accesibles 24/7.
+- Acompañamiento personalizado según necesidades del estudiante.
+- Alineación con los ODS 4, 9 y 16.
+
+------------
+
+## 🏁 Conclusión
+
+S.A.P.I.E.N.S. representa un paso clave hacia la transformación digital del proceso de tutoría académica en la Universidad Santo Tomás. Basado en IA generativa, responde a necesidades reales de los estudiantes, potenciando el aprendizaje autónomo y fortaleciendo la permanencia estudiantil mediante un modelo accesible, escalable e innovador.
+
+------------
+
+## 👥 Equipo del Proyecto
+
+- Profesor Diego Alejandro Barragán
+- Estudiante Yojan Arley Contreras
+-  Estudiante Cristian David Losada
+- Estudiante Alejandro Castañeda
