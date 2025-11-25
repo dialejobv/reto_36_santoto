@@ -4,7 +4,7 @@
 
 ------------
 
-## 🧠 Introducción
+##  Introducción
 
 S.A.P.I.E.N.S. (Sistema de Apoyo Personalizado e Inteligente para Estudiantes de la Santo Tomás) es un prototipo funcional de tutor académico basado en inteligencia artificial generativa, diseñado para apoyar el aprendizaje autónomo, mejorar el desempeño académico y reducir la deserción estudiantil en la Facultad de Ingeniería Electrónica.
 
@@ -147,7 +147,7 @@ Incluye:
 - Re-renderización automática
 
 ![Image](https://github.com/user-attachments/assets/41e666c0-2e5c-4d31-adc7-32963bba07cc)
->- Entrada de texto Tutor Sapiens
+>- Entrada de texto  Sapiens
 
 ### 🧠 Lógica del Tutor (DeepSeek)
 
@@ -173,7 +173,7 @@ El tutor se comporta según el SYSTEM_PROMPT que se creó:
 Es decir, el estudiante puede hablar y SAPIENS responde ¡como un profesor real!
 
 ![Image](https://github.com/user-attachments/assets/09b8336f-a2a9-4daa-a30d-6678491fcb73)
->- Entrada por voz Tutor Sapiens
+>- Entrada por voz  Sapiens
 ------------
 
 ### 🔊 3. Generación de Audio (TTS)
@@ -206,7 +206,7 @@ Si el usuario pide cosas como:
 Con Plotly, completamente interactivo.
 
 ![Image](https://github.com/user-attachments/assets/6d979f24-b5d1-4253-8ea3-425e7e2f778a)
->- Generación de gráficas Tutor Sapiens
+>- Generación de gráficas  Sapiens
 ------------
 
 ### 🧮 5. Calculadora Doble (Básica + Simbólica)
@@ -220,6 +220,9 @@ Incluye:
 - Cambiar signo
 - Redondeos y manejo de errores
 
+![Image](https://github.com/user-attachments/assets/b5967476-e59c-4480-a5ae-6e610788a72c)
+>- Calculadora básica Sapiens
+
 ### ✨ Calculadora Simbólica
 
 - Derivadas
@@ -232,6 +235,8 @@ Incluye:
 
 Todo respaldado por SymPy.
 
+![Image](https://github.com/user-attachments/assets/98733ffa-2b12-424c-9514-3f1db893e08d)
+>- Calculadora simbólica Sapiens
 ------------
 
 ### 🧑‍🏫 6. Avatar Animado
