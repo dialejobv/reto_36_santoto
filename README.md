@@ -111,3 +111,45 @@ Delimitaciones:
         TTS --> UI
         Backend --> UI
     
+
+------------
+
+## ⚡ Tecnologías Utilizadas
+
+| Tecnología                       | Uso                             |
+| -------------------------------- | ------------------------------- |
+| **Python 3.x**                   | Lógica principal                |
+| **Streamlit**                    | Interfaz de usuario             |
+| **DeepSeek API**                 | Motor de IA para tutoría        |
+| **gTTS (Google Text-to-Speech)** | Audio de respuestas             |
+| **Plotly**                       | Gráficas interactivas           |
+| **SymPy**                        | Cálculo simbólico               |
+| **NumPy / Math**                 | Operaciones matemáticas         |
+| **HTML + CSS**                   | Diseño custom del chat y avatar |
+
+------------
+
+## 🎛️ Componentes Funcionales del Sistema
+
+### 💬 1. Módulo de Conversación (Chat)
+
+Incluye:
+
+- Chat visual con estilos personalizados
+- Mensajes usuario/asistente
+- Renderizado de fórmulas matemáticas con MathJax
+- Sistema de prompts pedagógicos
+- Control de historial
+- Re-renderización automática
+
+### 🧠 Lógica del Tutor (DeepSeek)
+
+El tutor se comporta según el SYSTEM_PROMPT que creaste:
+
+- Explica paso a paso
+- Usa preguntas socráticas
+- NO resuelve tareas completas
+- Usa LaTeX en todas las fórmulas
+- Corrige con amabilidad
+- Agrega ejemplos
+- Verifica la comprensión
