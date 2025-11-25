@@ -68,6 +68,27 @@ Potenciar el rendimiento académico y la autonomía de los estudiantes mediante 
 
 ------------
 
+## 🧩 Alcance del Proyecto
+
+Incluye:
+
+- Diseño y desarrollo de un prototipo funcional de tutor IA.
+- Personalización basada en perfil y necesidades del estudiante.
+- Entorno de interacción inmediato: texto y voz.
+- Pruebas piloto con estudiantes tomasinos.
+- Integración de explicaciones, ejemplos y recursos educativos.
+- Bases para escalabilidad futura a más asignaturas.
+
+Delimitaciones:
+
+- Se construye un PMV (no versión comercial).
+- Cubre un número limitado de materias iniciales.
+- La calidad depende de la base de conocimientos disponible.
+- No reemplaza al tutor humano.
+- Sujeto a restricciones éticas y legales (Ley 1581 de 2012).
+
+------------
+
 ## 🏗️ Arquitectura General
 
 ### 🔧 Diagrama de Arquitectura Técnica
