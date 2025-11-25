@@ -25,3 +25,34 @@ El sistema provee:
 ✨ Un avatar animado para una experiencia más humana
 
 Todo integrado en una interfaz construida con Streamlit, conectada a la API de DeepSeek, con un modelo pedagógico diseñado para fomentar comprensión y autonomía.
+
+------------
+
+## 🎯 Objetivo del Proyecto
+
+Desarrollar un tutor inteligente académico para Cálculo, accesible, usable y educativo, alineado con la transformación digital educativa de la Universidad Santo Tomás.
+
+------------
+
+## 🏗️ Arquitectura General
+
+### 🔧 Diagrama de Arquitectura Técnica
+
+    flowchart TD
+        User["👤 Estudiante"] --> UI["🖥️ Interfaz Streamlit"]
+        UI --> ChatBox["💬 Chat (HTML + CSS personalizado)"]
+        UI --> Voice["🎤 speech_to_text (micrófono)"]
+        UI --> Calculator["🧮 Calculadora (básica + simbólica)"]
+        UI --> Graphs["📊 Gráficas Plotly"]
+        
+        ChatBox --> Backend["⚙️ Backend Python"]
+        Voice --> Backend
+        Calculator --> Backend
+    
+        Backend --> DeepSeek["🧠 DeepSeek API"]
+        Backend --> TTS["🔊 gTTS\n(Texto → Voz)"]
+    
+        DeepSeek --> Backend
+        TTS --> UI
+        Backend --> UI
+    
