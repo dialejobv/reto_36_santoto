@@ -153,3 +153,26 @@ El tutor se comporta según el SYSTEM_PROMPT que creaste:
 - Corrige con amabilidad
 - Agrega ejemplos
 - Verifica la comprensión
+
+------------
+
+### 🎤 2. Entrada por Voz
+
+- Integrada mediante streamlit_mic_recorder
+- Convierte voz → texto
+- Detecta última grabación procesada
+- Previene duplicados
+
+Es decir, el estudiante puede hablar y SAPIENS responde ¡como un profesor real!
+
+------------
+
+### 🔊 3. Generación de Audio (TTS)
+
+Tu función texto_a_voz():
+
+✔️ Limpia Markdown
+✔️ Traduce ecuaciones LaTeX a lenguaje natural
+✔️ Convierte texto → audio .mp3
+✔️ Lo reinyecta en la UI
+✔️ Reproduce automáticamente
