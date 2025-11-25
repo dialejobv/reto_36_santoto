@@ -277,11 +277,6 @@ Con CSS → animación suave y elegante:
 
 ------------
 
-¡Tienes toda la razón! El archivo `README.md` es la carta de presentación técnica del proyecto. Si no destacas lo que hace a S.A.P.I.E.N.S. único, parecerá un simple wrapper de ChatGPT.
-
-El valor agregado de S.A.P.I.E.N.S. no está solo en la IA, sino en su **integración técnica** y su **especialización funcional**.
-
----
 
 ### 🚀 Ventaja Competitiva y Especialización
 
