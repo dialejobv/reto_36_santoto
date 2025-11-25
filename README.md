@@ -277,6 +277,32 @@ Con CSS → animación suave y elegante:
 
 ------------
 
+¡Tienes toda la razón! El archivo `README.md` es la carta de presentación técnica del proyecto. Si no destacas lo que hace a S.A.P.I.E.N.S. único, parecerá un simple wrapper de ChatGPT.
+
+El valor agregado de S.A.P.I.E.N.S. no está solo en la IA, sino en su **integración técnica** y su **especialización funcional**.
+
+---
+
+### 🚀 Ventaja Competitiva y Especialización
+
+## 🔍 Ventaja Competitiva y Enfoque Especializado (S.A.P.I.E.N.S. vs. IA Genérica)
+
+El mercado de tutores virtuales está dominado por modelos de lenguaje generalistas (LLMs). S.A.P.I.E.N.S. se diferencia radicalmente al ofrecer una solución altamente especializada, funcional y diseñada con ingeniería de sistemas:
+
+| Característica | S.A.P.I.E.N.S. (Enfoque Especializado) | IA Genérica (ChatGPT, Bard, etc.) |
+|---|---|---|
+| **Dominio** | Tutor Exclusivo de Cálculo Diferencial e Integral. El prompt del sistema y los filtros están ajustados para **precisión matemática, pedagogía universitaria y notación formal (LaTeX)**. | Tutor generalista con enfoque amplio. La precisión puede variar en problemas matemáticos complejos o ambiguos, requiriendo *debugging* por parte del usuario. |
+| **Precisión Matemática** | Integración del motor **SymPy (Symbolic Python)** en la calculadora. Esto permite realizar cálculo simbólico exacto (derivadas, integrales, simplificación) y visualizar resultados con el mismo nivel de rigor que WolframAlpha. | Depende únicamente de la red neuronal, lo que puede llevar a errores de **alucinación** o imprecisión en las operaciones. |
+| **Experiencia de Usuario (UX)** | Interfaz nativa de **Streamlit** optimizada, complementada con entrada por voz (*speech-to-text*) y salida de respuesta en audio (gTTS). La interacción es **multimodal e inmersiva**. | Principalmente entrada y salida de texto. Las funciones de voz y la UX suelen ser menos integradas o dependen de plataformas externas. |
+| **Escalabilidad y Mantenimiento** | Desarrollado con una arquitectura **DevOps (Docker y Kubernetes)**. El proyecto es containerizado, asegurando una implementación rápida, una gestión de dependencias estable y una **escalabilidad horizontal inmediata** para toda la población estudiantil de la universidad. | No ofrecen una solución containerizada lista para despliegue institucional; requieren una infraestructura de integración compleja por parte de la universidad. |
+| **Visualización** | Capacidad nativa de generar **gráficas interactivas con Plotly** (ej. líneas tangentes, áreas bajo la curva) en tiempo real, vinculando la teoría con la representación visual para mejorar el aprendizaje. | Se limita a describir cómo debe ser una gráfica o a generar código Plotly que el usuario debe copiar y ejecutar externamente. |
+
+### Conclusión del Valor Único:
+
+S.A.P.I.E.N.S. no es solo un motor de lenguaje, es un **sistema de apoyo educativo diseñado e implementado con rigor de ingeniería**, lo que garantiza **precisión matemática, usabilidad multimodal y escalabilidad institucional**, factores críticos que lo separan de las herramientas de IA de propósito general.
+
+----
+
 ## 🏁 Conclusión
 
 S.A.P.I.E.N.S. representa un paso clave hacia la transformación digital del proceso de tutoría académica en la Universidad Santo Tomás. Basado en IA generativa, responde a necesidades reales de los estudiantes, potenciando el aprendizaje autónomo y fortaleciendo la permanencia estudiantil mediante un modelo accesible, escalable e innovador.
